@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+}
+.maintext{
+	font-size:50px;
+	color:red;
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.about{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size:27px;
+	color:white;
+}
+.name{
+		text-align:left;
+}
+table{
+	font-size:20px;
+	border: 1px solid white;
+	width:50%;
+	color:white;
+ 
+
+}
+th, td {
+	border: 1px solid white;
+	color:white;
+	text-align:center;
+}
+tr:hover {background-color: green;}

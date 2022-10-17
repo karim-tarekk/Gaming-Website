@@ -1,0 +1,184 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial;
+}
+
+.h2 {
+    text-align: center;
+    color: sandybrown;
+    font-weight: bold;
+    margin-top: 60px;
+    border: ridge;
+    border: 5px solid #00FFFF;
+    border-radius: 100px;
+   padding: 40px;
+}
+
+.bk-color {
+    text-align: left;
+    font-weight: bolder;
+    color: yellow;
+}
+
+.container{
+   margin-top: 100px;
+   margin-left: 46%;
+   transform: translate(-50%,-50%);
+}
+.bk-btn1 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #f5f2d0;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 3s;
+	margin-top: auto;
+}
+.bk-btn1:hover {
+    box-shadow: 0 5px 50px #f5f2d0 inset, 0 5px 50px #f5f2d0 inset, 0 5px 50px #f5f2d0 inset, 0 5px 50px #f5f2d0 inset;
+    text-shadow: 0 0 5px #f5f2d0, 0 0 5px #f5f2d0;
+}
+.bk-btn2 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #EE82EE;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 3s;
+	margin-top: auto;
+}
+.bk-btn2:hover {
+	box-shadow: 0 5px 50px #EE82EE inset, 0 5px 50px #EE82EE inset, 0 5px 50px #EE82EE inset, 0 5px 50px #EE82EE inset;
+	text-shadow: 0 0 5px #EE82EE, 0 0 5px #EE82EE;
+}
+
+.bk-btn3 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #FFA500;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 3s;
+	margin-top: auto;
+}
+.bk-btn3:hover {
+    box-shadow: 0 5px 50px #FFA500 inset, 0 5px 50px #FFA500 inset, 0 5px 50px #FFA500 inset, 0 5px 50px #FFA500 inset;
+    text-shadow: 0 0 5px #FFA500, 0 0 5px #FFA500;
+}
+.bk-btn4 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #008000;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 3s;
+	margin-top: auto;
+}
+.bk-btn4:hover {
+	box-shadow: 0 5px 50px #008000 inset, 0 5px 50px #008000 inset, 0 5px 50px #008000 inset, 0 5px 50px #008000 inset;
+	text-shadow: 0 0 5px #008000, 0 0 5px #008000;
+}
+.bk-btn5 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #FF0000;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 3s;
+	margin-top: auto;
+}
+.bk-btn5:hover {
+    box-shadow: 0 5px 50px #FF0000 inset, 0 5px 50px #FF0000 inset, 0 5px 50px #FF0000 inset, 0 5px 50px #FF0000 inset;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #FF0000;
+}
+.bk-btn6 {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #00FFFF;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 3s;
+	margin-top: auto;
+}
+.bk-btn6:hover {
+	box-shadow: 0 5px 50px #00FFFF inset, 0 5px 50px #00FFFF inset, 0 5px 50px #00FFFF inset, 0 5px 50px #00FFFF inset;
+	text-shadow: 0 0 5px #00FFFF, 0 0 5px #00FFFF;
+}
+.hd-text {
+    color: yellow;
+    text-align: left;
+    font-weight: bolder;
+}
+#change-text {
+    width: 600px;
+    height: 70px;
+    position: relative;
+    left: 450px;
+}
+.change-btn {
+    position: relative;
+    left: 650px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: 5px solid #70A8DA;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+.change-btn:hover {
+	box-shadow: 0 5px 50px #70A8DA inset, 0 5px 50px #70A8DA inset, 0 5px 50px #70A8DA inset, 0 5px 50px #70A8DA inset;
+	text-shadow: 0 0 5px #70A8DA, 0 0 5px #70A8DA;
+}
+
+
+  

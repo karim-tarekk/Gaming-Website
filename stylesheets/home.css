@@ -1,0 +1,60 @@
+/*Game section*/
+body{
+	background-color: black;
+}
+.maintext{
+	font-size:50px;
+	color:red;
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.text1{
+	margin-top: 15px;
+	font-size:30px;
+	color:#A4A4A4;
+}
+.intxtlink{
+  color: red;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+aside{
+	float: right;
+	width:20%;
+	height:50%;
+}
+.asidetext
+{
+	color:white;
+	text-align:center;
+}
+.qes{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: Red;
+	font-size:40px;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+.list{
+	color:#A4A4A4;
+	font-size:30px;
+	margin-bottom: 15px;
+	
+}
+.homepage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+    background-size: cover;	
+}
+.contact{
+	color:#A4A4A4;
+	font-size: 30px;
+	margin-bottom: 15px;
+}

@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/login.css"  />
+</head>
+<body>
+    <!--Header Section-->
+    <img src="https://i.ibb.co/QvfTbKw/logo.png" style="width:5%; height:5%; margin-top: auto;">
+    <div class="header">
+        <p> Welcome to Data Pirates</p>
+    </div>
+
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+
+
+            </div>
+
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="https://w7.pngwing.com/pngs/677/92/png-transparent-social-media-facebook-logo-hashtag-facebook-blue-text-photography.png" /></a>
+                <a href="https://twitter.com/login?lang=ar"><img src="https://vignette.wikia.nocookie.net/logopedia/images/f/f3/Twitter_icon.png/revision/latest/scale-to-width-down/200?cb=20120619203758" /></a>
+                <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue"> <img src="https://cdn.icon-icons.com/icons2/730/PNG/512/google_icon-icons.com_62798.png" /> </a>
+
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User ID..." id="userID"/>
+                <input type="password" class="input-field" placeholder="Enter password..." id="userPass"/>
+                <input type="checkbox" class="chech-box" /> <span>Remember password</span>
+                <button type="submit" class="submit-btn" onclick="return admin()">Log in</button>
+            </form>
+            <form id="register" class="input-group">
+                <input id="username" type="text" class="input-field" placeholder="User ID..."/>
+                <input id="userpassword" type="password" class="input-field" placeholder="Enter password..."/>
+                <input id="usermail" type="email" class="input-field" placeholder="Email ID..."/>
+                <input id="checkbox" type="checkbox" class="chech-box"/> <span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn" onclick="return AfterRegistration()">Register</button>
+
+            </form>
+        </div>
+
+        <!--Footer Section -->
+        <footer class="foot">
+            <div class="copyright"> 2020 @ All rights reserved</div>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript">
+
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+        function register() {
+
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+
+        function admin() {
+            var id = document.getElementById("userID").value;
+            var pass = document.getElementById("userPass").value;
+
+
+            if (id == "admin" && pass == "admin") {
+
+                window.location.href = "admin.html";
+                alert("Welcome to Data Pirates  @admin, Redirecting to the admin page...");
+            }
+            else if (id != "" && pass != ""){
+                window.location.href = "home.html";
+                alert("Welcome to Data Pirates @user, Redirecting to the home page...");
+            }
+			else {
+				alert("Please Enter your User name and Password");
+			}
+            return false;
+        }
+		function AfterRegistration()
+		{
+			var name = document.getElementById("username").value;
+            var password = document.getElementById("userpassword").value;
+			if(name=="")
+			{
+				alert("Enter your name");
+			}
+			if(password=="")
+			{
+				alert("Enter your Password");
+			}
+			if(document.getElementById("usermail").value.indexOf("@")==-1||document.getElementById("usermail").value.indexOf(".")==-1||document.getElementById("usermail").value=="")
+			{
+				alert("Enter a valid email eg: datapirates@gmail.com");
+			}
+			if(document.getElementById("checkbox").checked == false)
+			{
+				alert("please agree to the terms & conditions");
+			}
+			else{
+				alert("Thank You, You have successfully registered an account");
+				window.location.href = "home.html";
+			}
+			return false;
+		}
+    </script>
+
+
+
+
+</body>
+</html>

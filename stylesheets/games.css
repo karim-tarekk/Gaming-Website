@@ -1,0 +1,248 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.gtav {
+    width: 700px;
+    height: 500px;
+    background-image: url("https://media.giphy.com/media/MgOx0fXyDVXTq/giphy.gif");
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+    left: 410px;
+}
+
+.gtav-title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+.gtav-ref {
+    color: cyan;
+}
+
+.gtav-ref:hover {
+	color: yellow;
+	font-weight: bold;
+}
+
+.gtav-summary {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    top: 30px;
+   
+}
+
+.gtav-brief {
+    color: red;
+    position: relative;
+    top: 32px;
+    
+}
+.gtav-border{
+
+    border: solid;
+    border-bottom-color: orange;
+    margin-top: 100px;
+    border-style: double;
+
+}
+
+.rd2-title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+.rd2 {
+    width: 700px;
+    height: 500px;
+    background-image: url("https://media.giphy.com/media/AiLqW8jmFvIEdnUixm/giphy.gif");
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+    left: 410px;
+}
+
+.rd2-ref {
+    color: cyan;
+}
+
+    .rd2-ref:hover {
+        color: greenyellow;
+        font-weight: bold;
+    }
+
+.rd2-summary {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+}
+
+.rd2-brief {
+    color: red;
+    position: relative;
+}
+.rd2-border {
+    border: solid;
+    border-bottom-color: orange;
+    margin-top: 100px;
+    border-style: double;
+}
+
+.fh4-title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+.fh4 {
+    width: 700px;
+    height: 500px;
+    background-image: url("https://media1.tenor.com/images/7aabdaf4a9d341e78b4bdfac5b715ad1/tenor.gif");
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+    left: 410px;
+}
+
+.fh4-ref {
+    color: cyan;
+}
+
+.fh4-ref:hover {
+	color: greenyellow;
+	font-weight: bold
+}
+
+.fh4-summary {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+}
+
+.fh4-brief {
+    color: red;
+    position: relative;
+}
+.fh4-border {
+    border: solid;
+    border-bottom-color: orange;
+    margin-top: 100px;
+    border-style: double;
+}
+
+
+.fc {
+    width: 700px;
+    height: 500px;
+    background-image: url("https://media1.tenor.com/images/15796b210e34ad6fae44b37bec275a7c/tenor.gif");
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+    left: 410px;
+}
+
+.fc-title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+.fc-ref {
+    color: cyan;
+}
+
+    .fc-ref:hover {
+        color: yellow;
+        font-weight: bold;
+    }
+
+.fc-summary {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.fc-brief {
+    color: red;
+    position: relative;
+    top: 32px;
+}
+.fc-border {
+    border: solid;
+    border-bottom-color: orange;
+    margin-top: 100px;
+    border-style: double;
+}
+
+.wd {
+    width: 700px;
+    height: 500px;
+    background-image: url("https://media.tenor.com/images/cf339562d0d701cb0685951afa1d20a3/tenor.gif");
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+    left: 410px;
+}
+
+.wd-title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+.wd-ref {
+    color: cyan;
+}
+
+    .wd:hover {
+        color: yellow;
+        font-weight: bold;
+    }
+
+.wd-summary {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.wd-brief {
+    color: red;
+    position: relative;
+    top: 32px;
+}
+
+.wd-border {
+    border: solid;
+    border-bottom-color: orange;
+    margin-top: 60px;
+    border-style: double;
+    margin-bottom: 60px;
+}

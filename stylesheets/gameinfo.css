@@ -1,0 +1,73 @@
+/*Game section*/
+body{
+	background-color:black;
+	}
+.gamename {
+	text-align:center;
+	color:#FF0000;
+    font-size:35px;
+    margin-top: 15px;
+}
+.poster{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+	width: 75%;
+}
+.info,.gameplay,.gamerate,.gameplat,.gamereq,.trailer{
+	color:#8A0808;
+	font-size:30px;
+    text-align:center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.gameinfo,.rate,.plat,.req{
+	font-size:20px;
+	color:#A4A4A4;
+	margin-bottom: 15px;
+}
+
+.screen1{
+	
+	width:50%;
+    float:left;
+    
+}
+.screen2{
+	
+	width:50%;
+    float:right;
+}
+.screen3{
+	
+	width:50%;
+	float:left;
+	margin-bottom: 15px;
+}
+
+.screen4{
+	
+	width:50%;
+    float: right;
+	height: 10%;
+	margin-bottom: 15px;
+}
+.min{
+	font-size:25px;
+	color:#FF0000;
+	margin-bottom: 10px;
+	text-decoration:none;
+}
+.max{
+	font-size:25px;
+	color:#FF0000;
+	margin-bottom: 10px;
+	text-decoration:none;
+}
+.video { 
+	display: block; 
+	width: auto; 
+	margin: auto;  
+}  

@@ -1,0 +1,31 @@
+/*Game section*/
+body{
+	background-color: black;
+}
+.maintext{
+	font-size:50px;
+	color:red;
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.contact{
+	margin-top: 15px;
+	font-size:27px;
+	color:white;
+}
+.address{
+	margin-top: 15px;
+	font-size:30px;
+	color:#A4A4A4;
+}
+.add_dara{
+	margin-top: 15px;
+	font-size:20px;
+	color:#A4A4A4;
+}
+.indata{	
+	margin-left: 50px;
+	font-size:20px;
+	color:white;
+}
